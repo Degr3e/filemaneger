@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* body{
+    margin: 0;
+} */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+main>h1{
+    align-items: center;
+    color: rgb(217, 207, 201);
+    text-shadow: 0 0 5px rgba(255, 196, 177, 0.777) ;
+}
+.file{
+    list-style-type: none;
+    width: 500px;
+    height: 50px;
+    background-color: #1e5f81;
+    font-size: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #1e5f81;
+}
+
+div>input{
+    border: #111419;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.5s;
+    width: 500px;
+    height: 40px;
+    background-color: #a0a0a0;
+    color: black;
+    
+}
+div>button{
+    border-radius: 5px;
+    border: #111419;
+    height: 40px;
+    width: 150px;
+    background-color: #a0a0a0;
+    transition: 1s;
+}
+div>button:hover{
+    box-shadow: 0 0 15px rgb(106, 219, 157);
+    background-color: rgb(106, 219, 157);
+}
+label{
+    color: #ffffff;
+    
+}
+#result{
+    color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box } 
+
+body{
+  font-family:'Open Sans';
+  color:rgb(255, 255, 255);
+  margin:40px;
+  
+}
+
+a{
+  color:white;
+}
+
+/* .folder{
+    list-style-type: none;
+    width: 350px;
+    height: 40px;
+    background-color: ; 
+    font-size: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #a0a0a0;
+} */
+img{
+    width: 25px;
+    height: 25px;
+}
+.try{
+    background-color: rgb(35, 36, 32);
+    height: auto;
+    padding: 5px;
+    box-shadow: 0 0 20px gray;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.files>table{
+    border-collapse: collapse;
+    box-shadow: 0 0 20px gray;
+    background-color: rgb(35, 36, 32);
+}
+
+.files>table>tbody>tr:hover{
+    background-color: #4d4d4d;
+    box-shadow: 0 0 10px #b1abff;
+    transition: 0.5s;
+}
+
+body{
+    background-color: #191919;
+}
+#directory:hover{
+    box-shadow: 0 0 10px #ffffff;
+    background-color: #bcbcbc;
+}
+.ways{
+    background-color: rgb(35, 36, 32);
+    border-radius: 5px;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 2px;
+}
+.way-part{
+    color: black;
+    display: inline-block;
+    background-color: #a0a0a0;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.way-part:hover{
+    background-color: #dbd9ff;
+    transition: 0.5s;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 2px white; 
+    border-radius: 10px;
+    padding: 100px;
+}
+td, th{
+    padding: 10px;
+    cursor: pointer;
+}
+.canvasChart{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    background-color: rgb(35, 36, 32);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+}
+.sizeIcon{
+    color: white;
+}
+.check{
+    width: 25px;
+    height: 30px;
+    border-radius: 100px;
+}

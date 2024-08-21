@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>convert</title>
+</head>
+<body>
+    <main>
+
+        <h1>Конвертер</h1>
+        <select name="" id="converter-type">
+            <option value="" disabled selected></option>
+            <option value="time">Мера времени</option>
+            <option value="pressure">Мера давления</option>
+            <option value="length">Мера длины</option>
+            <option value="mass">Мера массы</option>
+            <option value="info">Мера количества информации</option>
+            <option value="volume">Мера объема</option>
+        </select>
+        <div>
+            <select name="" id="unit-a"></select>
+            <input type="number" name="" id="a">
+        </div>
+        <div>
+            <select name="" id="unit-b"></select>
+            <input type="number" name="" id="b">
+        </div>
+    </main>
+    <section>
+        <h2 id="texth2">Меняю цвет</h2>
+        <input type="color" id="colorSwitch">
+    </section>  
+    <section id="sectionA">
+        <input type="text" id="inputTask">
+        <button id="addTask">Добавить</button>
+    </section>
+    <script src="./qwerty.js"></script>
+</body>
+</html>
