@@ -8,8 +8,22 @@
 <body>
     
     <main>
+        <div class="header">
+            <img class="logo" src="filemanager.png" alt="Logo" onclick="showCreatorInfo()">
+            <span class="nameLogo">Filemanager</span>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <p></p>
+                <p>build 29.10.2024</p>
+                <p>upd: -add logo and name</p>
+                <p> -add alert</p>
+            </div>
+        </div>
     <div class="try">
         <div>
+            <!-- <img class="logo" src="filemanager.png"> -->
             <div class = "ways"></div>
             <!-- <input type="file" id="directory" webkitdirectory directory/> -->
             <input type="text" name="" id="directory" placeholder="Путь к директории" value="C:\Users\Gleb77\Downloads\Telegram Desktop">

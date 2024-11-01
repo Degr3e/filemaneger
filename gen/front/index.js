@@ -161,6 +161,7 @@ let lastSort;
 let files = [];
 let chart;
 let fullPath;
+const logoFilemanger = `<img src = "filemanager.png">`
 const sizeIcon = `<img src = "down-arrow.png">`
 const folderIcon = `<img src = "open-folder.png">`
 const fileIcon = `<img src = "document.png">`
@@ -240,4 +241,20 @@ removeBtn.addEventListener("click", () =>{
 })
 
 
+// Функция для показа модального окна
+function showCreatorInfo() {
+    document.getElementById("modal").style.display = "block";
+}
 
+// Функция для скрытия модального окна
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+// Закрытие модального окна при клике вне его
+window.onclick = function(event) {
+    const modal = document.getElementById("modal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
