@@ -258,3 +258,14 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+document.getElementById('clearCacheButton').addEventListener('click', () => {
+    document.getElementById('status').innerText = "Очистка кэша...";
+
+    
+    eel.clear_all_cache().then((result) => {
+        document.getElementById('status').innerText = result ? "Кэш успешно очищен!" : "Не удалось очистить кэш.";
+    }).catch((error) => {
+        console.error(error);
+        document.getElementById('status').innerText = "Ошибка при очистке кэша.";
+    });
+});
